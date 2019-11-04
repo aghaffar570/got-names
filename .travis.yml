@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - node_modules
+notification:
+  email: false
+script:
+  - npm run test:single
