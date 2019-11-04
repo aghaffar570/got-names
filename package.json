@@ -4,11 +4,12 @@
   "description": "Get random GOT names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aghaffar570/got-names.git"
+    "url": "https://github.com/aghaffar570/got-names.git"
   },
   "keywords": [
     "random",
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/aghaffar570/got-names#readme",
   "dependencies": {
     "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
   }
 }
