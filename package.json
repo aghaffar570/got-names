@@ -1,5 +1,5 @@
 {
-  "name": "got-names",
+  "name": "@aghaffar570/got-names",
   "version": "1.0.0",
   "description": "Get random GOT names",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
     "got",
     "names"
   ],
-  "author": "Abdul Ghaffar",
+  "author": "Abdul Ghaffar <aghaffar570@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aghaffar570/got-names/issues"
